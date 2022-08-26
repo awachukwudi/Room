@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: grey;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
 }
 
 nav {
@@ -31,7 +33,7 @@ h2 {
 .scroll-icons {
   position: absolute;
   right: 109px;
-  bottom: 87px;
+  bottom: 70px;
 }
 
 .left-icon {
@@ -87,4 +89,13 @@ h3 {
 .light-image {
   margin-left: -14px;
   width: 20%;
+}
+
+.innovative a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1rem;
 }
