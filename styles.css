@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+nav {
+  display: flex;
+  padding-left: 60px;
+  width: 40%;
+  position: absolute;
+  top: 2rem;
+  left: 12px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+section {
+  display: flex;
+}
+
+h2 {
+  padding-top: 1rem;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+}
+.scroll-icons {
+  padding-left: -40px;
+}
+
+.left-icon {
+  background: black;
+  padding: 20px;
+}
+
+.right-icon {
+  background: black;
+  padding: 20px;
+  margin-left: -8px;
+}
+
+.links {
+  margin-right: 28px;
+}
+
+.innovative {
+  margin-left: 500px;
+  padding-top: 100px;
+}
+div,
+hero-1 {
+  width: 400px;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+.second-section {
+  display: flex;
+  width: 100%;
+}
+
+.about-text {
+  margin: 24px;
+  padding: 24px;
+}
+
+.light-image {
+  margin-left: -14px;
+  width: 20%;
+}
