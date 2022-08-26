@@ -29,7 +29,9 @@ h2 {
   letter-spacing: 0.5rem;
 }
 .scroll-icons {
-  padding-left: -40px;
+  position: absolute;
+  right: 109px;
+  bottom: 87px;
 }
 
 .left-icon {
@@ -63,6 +65,18 @@ h3 {
 .second-section {
   display: flex;
   width: 100%;
+}
+
+.dark-image {
+  margin-top: -4px;
+}
+
+.about-text {
+  align-content: center;
+}
+.light-image {
+  margin-top: -4px;
+  width: 20%;
 }
 
 .about-text {
