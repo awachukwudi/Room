@@ -110,25 +110,32 @@ h3 {
 }
 
 @media (max-width: 576px) {
-  nav .links {
-    display: none;
-  }
+  /* body { 
+    width: 100vw;
+    height: 100vh;*/
+}
+.links {
+  display: none;
+}
 
-  .hamburger {
-    display: inline;
-  }
+.hamburger {
+  display: inline;
+}
 
-  .hero-1 {
-    display: none;
-  }
+.hero-1 {
+  display: none;
+}
 
-  .mobile-hero {
-    display: block;
-    width: 100%;
-  }
+.mobile-hero img {
+  width: 100%;
+}
 
-  .main-section,
-  .second-section {
-    display: block;
-  }
+.mobile-hero {
+  display: block;
+  width: 100%;
+}
+
+.main-section,
+.second-section {
+  display: block;
 }
