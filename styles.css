@@ -15,6 +15,10 @@ nav {
   top: 2rem;
   left: 12px;
 }
+
+.hamburger {
+  display: none;
+}
 .links a {
   color: white;
   text-decoration: none;
@@ -23,6 +27,15 @@ nav {
 
 section {
   display: flex;
+}
+
+.mobile-hero {
+  display: none;
+}
+
+.main-section p,
+.second-section p {
+  line-height: 1.5rem;
 }
 
 h2 {
@@ -54,7 +67,18 @@ h2 {
 .innovative {
   margin-left: 500px;
   padding-top: 100px;
+  justify-content: center;
 }
+
+.innovative a {
+  color: black;
+  text-decoration: none;
+}
+
+.innovative p {
+  color: grey;
+}
+
 div,
 hero-1 {
   width: 400px;
@@ -74,28 +98,32 @@ h3 {
 }
 
 .about-text {
+  margin: 24px;
+  padding-left: 52px;
   align-content: center;
 }
+
 .light-image {
   margin-top: -4px;
+  margin-left: 45px;
   width: 20%;
 }
 
-.about-text {
-  margin: 24px;
-  padding: 24px;
-}
+@media (max-width: 576px) {
+  nav .links {
+    display: none;
+  }
 
-.light-image {
-  margin-left: -14px;
-  width: 20%;
-}
+  .hamburger {
+    display: inline;
+  }
 
-.innovative a {
-  color: black;
-  text-decoration: none;
-}
+  .hero-1 {
+    display: none;
+  }
 
-p {
-  line-height: 1rem;
+  .mobile-hero {
+    display: block;
+    width: 100%;
+  }
 }
