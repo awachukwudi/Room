@@ -126,4 +126,9 @@ h3 {
     display: block;
     width: 100%;
   }
+
+  .main-section,
+  .second-section {
+    display: block;
+  }
 }
