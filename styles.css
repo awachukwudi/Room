@@ -27,6 +27,11 @@ nav {
 
 section {
   display: flex;
+  width: 100%;
+}
+
+#shop-now:hover {
+  color: gray;
 }
 
 .mobile-hero {
@@ -54,10 +59,18 @@ h2 {
   padding: 20px;
 }
 
+.left-icon:hover {
+  background: grey;
+}
+
 .right-icon {
   background: black;
   padding: 20px;
   margin-left: -8px;
+}
+
+.right-icon:hover {
+  background: grey;
 }
 
 .links {
@@ -109,33 +122,37 @@ h3 {
   width: 20%;
 }
 
-@media (max-width: 920px) {
-  /* body { 
-    width: 100vw;
-    height: 100vh;*/
-}
-.links {
-  display: none;
-}
+@media screen and (min-width: 576px) {
+  .links {
+    display: none;
+  }
 
-.hamburger {
-  display: inline;
-}
+  .hamburger {
+    display: inline;
+  }
 
-.hero-1 {
-  display: none;
-}
+  /* .main-section, 
+      .second-section {
+        display: block;
+      }*/
 
-.mobile-hero img {
-  width: 100%;
-}
+  #main {
+    display: block;
+  }
 
-.mobile-hero {
-  display: block;
-  width: 100%;
-}
+  #main #mobile-image img {
+    width: 100%;
+  }
 
-.main-section,
-.second-section {
-  display: block;
+  .hero-1 {
+    display: none;
+  }
+
+  .mobile-hero img {
+    width: 100%;
+  }
+
+  .mobile-hero {
+    display: block;
+  }
 }
